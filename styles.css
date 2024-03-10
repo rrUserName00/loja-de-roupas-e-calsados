@@ -1,19 +1,41 @@
 body{
     background-color: whitesmoke;
-}
     
+}
     
 header{
         background-color: black;
         color: whitesmoke;
         text-align: center;
+        margin-bottom: 50px;
+        padding-bottom:  25px;
+        
 }
 
+.produtos{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+}
 
 footer .container{
         background-color: black;
         color: whitesmoke;
         text-align: center;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+}
+.copy{
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    margin-bottom: 25px;
 }
 
 main{
